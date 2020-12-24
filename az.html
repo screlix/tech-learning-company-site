@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+
+<body>
+
+    <section class="home" id="home">
+        <header>
+            <img src="img/logo.png" alt="sorry try again">
+            <img src="img/menu.png" alt="sorry" id="menu">
+            <div style="clear:both;"></div>
+        </header>
+
+        <article class="first">
+            <h1>The purpose is to teach, bring learning to people</h1>
+            <div>az</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                .</p>
+            <a href="#">Read More</a>
+            <div>az</div>
+            <hr>
+            <hr>
+        </article>
+    </section>
+    <aside>
+        <a href="#"> <img src="img/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+        <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+        <a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
+    </aside>
+    <aside id="menuASIDE">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#courses">COURSES</a></li>
+            <li><a href="#offer">OFFER</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <script>
+            var menu = document.getElementById("menu");
+            var menuASIDE = document.getElementById("menuASIDE");
+
+            menu.onclick = function () {
+                if (menuASIDE.style.height = "5000px") {
+                    if (menuASIDE.style.right == "-999px") {
+                        menuASIDE.style.right = "0px";
+                    }
+                    else {
+                        menuASIDE.style.right = "-999px";
+                    }
+                }
+                else {
+                    if (menuASIDE.style.right == "-280") {
+                        menuASIDE.style.right = "0px";
+                    }
+                    else {
+                        menuASIDE.style.right = "-280";
+                    }
+                }
+            }
+
+
+        </script>
+    </aside>
+    <div style="clear:both;"></div>
+    <section class="about" id="about">
+        <img src="img/about.png" alt="sorry try again">
+        <article class="second">
+            <h1>About Us</h1>
+            <div> az</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+
+            <div>az</div>
+            <span class="EE">
+                <hr>
+                <hr>
+            </span>
+
+            <h2>"Learning is not attained by chance, it must be sought for with ardor and attended to with diligence"
+            </h2>
+            <span class="ab">----Abigail Adams</span>
+        </article>
+        <div style="clear:both;"></div>
+    </section>
+    <div style="clear:both;"></div>
+    <section class="features" id="features">
+        <div><img src="img/pic-1.png">
+            <h1>Learn Anywhere</h1>
+            <p>Switch between computer tablet or mobile device</p>
+        </div>
+        <div><img src="img/pic-2.png">
+            <h1>Expert Teachers</h1>
+            <p>Learn from industry experts who are passionate about teaching</p>
+        </div>
+        <div><img src="img/pic-3.png">
+            <h1>Unlimited Access</h1>
+            <p>Choose what you'd like to learn from our extensive subscription library</p>
+        </div>
+
+    </section>
+
+    <div style="clear:both;"></div>
+    <div class="trial">
+        <span class="no">
+            <div id="dd">h</div>
+            <span id="nb">
+                <hr>
+                <hr>
+            </span>
+        </span>
+        <h2><a href="#">Start Free Trial</a></h2>
+    </div>
+    <div style="clear:both;"></div>
+    <section class="courses" id="courses">
+        <img src="img/course.png" alt="sorry try again">
+        <article class="third">
+            <h1>Browse our top courses</h1>
+            <br>
+            <div>h</div>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+            <br>
+            <span id="zoz"><a href="#">View All Courses</a></span>
+            <br>
+            <div>h</div>
+            <hr>
+            <hr>
+        </article>
+    </section>
+    <div style="clear:both;"></div>
+    <section class="offer" id="offer">
+        <img src="img/offer.png" alt="sorry try again">
+        <article class="fourth">
+            <h1>Limitless learning, limitless possibilities</h1>
+            <br>
+            <div id="aa">h</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. </p>
+            <a href="#">Start my free month</a>
+            <div style="clear:both;"></div>
+            <div id="aa">h</div>
+            <div style="clear:both;"></div>
+            <span id="ss">
+                <hr>
+                <hr>
+            </span>
+        </article>
+    </section>
+    <section class="contact" id="contact">
+        <img src="img/contact.png" alt="sorry try again">
+        <article class="five">
+            <h1>Sign Up to join our learning community</h1>
+            <input type="text" placeholder="Enter name">
+            <input type="Email" placeholder="Enter Email">
+            <input type="password" placeholder="Enter Password">
+
+            <a href="#">Sign Up</a>&nbsp
+            <a href="#">Start free trial</a>
+
+            <div id="dd">h</div>
+            <hr>
+            <hr>
+        </article>
+        <hr id="dd">
+        <footer>
+            <span>
+                <a href="#">About us</a>
+                <p>Request a Demo<br>
+                    FAQs</p>
+            </span>
+            <span>
+                <a href="#">Product</a>
+                <p>Our Plans<br> Free Trail</p>
+            </span>
+            <span>
+                <a href="#">Support</a>
+                <p>Features<br> Contact US</p>
+            </span>
+            <span>
+                <a href="#">Explore</a>
+                <p>Find a NoneProfile<br>
+                    Corporate Solutions</p>
+            </span>
+            <h2>support@xypo.com<br>&copy;2020 xypo</h2>
+            <div class="ma">
+                <img class="ig" src="img/logo.png" alt="sorry try again">
+                <a href="#" id="spe">English</a>
+            </div>
+        </footer>
+    </section>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 100
+        });
+    </script>
+</body>
+
+</html>
